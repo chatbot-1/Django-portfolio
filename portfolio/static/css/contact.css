@@ -1,0 +1,76 @@
+.section1 {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  color: white;
+}
+.section1 h1 {
+  font-size: 50px;
+  color: #24292e;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+}
+.section1 p {
+  font-size: 20px;
+}
+.section1 ul li {
+  font-size: 20px;
+}
+.section1 span {
+  /* font-weight: bold; */
+  color: rgb(150, 21, 201);
+}
+.section2 {
+  position: absolute;
+  top: 30%;
+  left: 65%;
+  width: 500px;
+  font-size: 20px;
+  color: white;
+}
+.section2 .data {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.section2 .data input {
+  width: 400px;
+  outline: none;
+  border: none;
+  background: transparent;
+  color: white;
+  padding: 10px 15px;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 17px;
+}
+.section2 .data textarea {
+  width: 400px;
+  outline: none;
+  border: none;
+  background: transparent;
+  color: white;
+  padding: 10px 15px;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 17px;
+}
+.section2 .contact-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.cont-btn {
+  width: 150px;
+  padding: 12px 0;
+  border: none;
+  outline: none;
+  background: rgb(150, 21, 201);
+  color: white;
+  cursor: pointer;
+  text-transform:uppercase;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 5px;
+}

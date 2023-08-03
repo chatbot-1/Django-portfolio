@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block body %}
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'css/achievements.css' %}">
+<div class="education">
+    <div class="edu-section">
+        <div class="edu edu-1">
+
+            <div class="edu-data">
+                <div class="block">
+                    <div>
+                        <i class="fa-brands fa-google"></i>
+                        <span>Google Developer Student CLubs</span>
+                    </div>
+                </div>
+                <p>Student Leader</p>
+                <p>2023-2024</p>
+            </div>
+            <div class="edu-img">
+                <img src="{% static "images/google.png" %}" alt="" style="height: 150px;">
+            </div>
+        </div>
+        <div class="edu edu-2">
+            <div class="edu-data">
+                <div class="block">
+                    <div>
+                        <i class="fa-brands fa-microsoft"></i>
+                        <span>Microsoft Learn Student Ambassadors</span>
+                    </div>
+                </div>
+                <p>Student Leader</p>
+                <p>2018-2019</p>
+            </div>
+            <div class="edu-img">
+                <img src="{% static "images/microsoft.png" %}" alt="" style="height: 150px;">
+            </div>
+        </div>
+        <div class="edu edu-3">
+            <div class="edu-data">
+                <p><i class="fa-solid fa-quote-left"></i>Atteded 10+ different hackathons in the NCR Region and made it to the finals in the five of those<i class="fa-solid fa-quote-right"></i></p>
+                <p><i class="fa-solid fa-quote-left"></i>Tried some Freelancing and gained the experience of 4 projects<i class="fa-solid fa-quote-right"></i></p>
+                <p><i class="fa-solid fa-quote-left"></i>Done Internship with E-cell IIT Madras as a Entrepreneurial intern<i class="fa-solid fa-quote-right"></i></p>
+                <p><i class="fa-solid fa-quote-left"></i>Worked with Final Project as a project Intern and contributed to different frontend Projects<i class="fa-solid fa-quote-right"></i></p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

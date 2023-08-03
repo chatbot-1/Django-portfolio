@@ -1,0 +1,34 @@
+.edu-section{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.block{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+.block span{
+    font-size: 20px;
+}
+.block .fa-brands{
+    color: white;
+    font-size: 20px;
+}
+.edu{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.edu-data i{
+    padding: 0 10px;
+    font-size: small;
+    color: rgb(150, 21, 201);
+}
+.edu-data p{
+    font-size: 17px;
+}

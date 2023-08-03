@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block body %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/home.css' %}">
+
+    <div class="home">
+        <div class="home-data">
+            <div class="home-head">
+                <h1>I BUILD <br>WEBSITES</h1>
+            </div>
+            <div class="home-main">
+                <h1>Hii,<br> I'm <span class="head-span">Atul Singh </span>  <br>
+                    <span class="subhead-span">Fullstack Developer</span>
+                </h1>
+                <button class="home-btn btn">Contact me</button>
+                <button class="resume-btn btn">Resume</button>
+            </div>
+            <img src="{% static 'images/profile.jpg' %}" alt="" style="height: 200px;">
+        </div>
+    </div>
+{% endblock %}

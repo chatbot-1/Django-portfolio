@@ -1,0 +1,156 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/812a751827.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="main-base">
+        <div class="base">
+            <div class="base-navbar">
+                <div class="navbar">
+                    <div class="nav-left">
+                        <img src="{% static 'images/logo.png' %}" alt="" style="height: 20px;">
+                        <p>File</p>
+                        <p>Edit</p>
+                        <p>View</p>
+                        <p>Go</p>
+                        <p>Run</p>
+                        <p>Terminal</p>
+                        <p>help</p>
+                    </div>
+                    <div class="base-center">
+                        <p>Atul Singh - Visual Studio Code</p>
+                    </div>
+                    <div class="base-icons">
+                        <i class="fa-solid fa-window-minimize"></i>
+                        <i class="fa-solid fa-window-maximize"></i>
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="base-folder">
+            <div class="folder-left">
+                <div class="left-top">
+                    <i class="fa-regular fa-file"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-table-cells-large"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-flask"></i>
+                </div>
+                <div class="left-bottom">
+                    <i class="fa-regular fa-circle-user"></i>
+                    <i class="fa-solid fa-gear"></i>
+                </div>
+
+            </div>
+            <div class="folder-center">
+                <div class="folder-heading">
+                    EXPLORER
+                </div>
+
+                <div class="folder-heading1">
+                    <i class="fa-solid fa-angle-down"></i>
+                    PORTFOLIO
+                </div>
+                <div class="folder-data">
+                    <div class="fol-img">
+                        <img src="{% static 'images/html.png' %}" alt="" style="height: 15px;">
+                        <a href="/">
+                            <p>home.html</p>
+                        </a>
+                    </div>
+                    <div class="fol-img">
+                        <img src="{% static 'images/css.png' %}" alt="" style="height: 15px;">
+                        <a href="{% url 'about' %}">
+                            <p>about.css</p>
+                        </a>
+                    </div>
+                    <div class="fol-img">
+                        <img src="{% static 'images/js.png' %}" alt="" style="height: 15px;">
+                        <a href="{% url 'education' %}">
+                            <p>education.js</p>
+                        </a>
+                    </div>
+                    <div class="fol-img">
+                        <img src="{% static 'images/py.png' %}" alt="" style="height: 15px;">
+                        <a href="{% url 'projects' %}">
+                            <p>projects.py</p>
+                        </a>
+                    </div>
+                    <div class="fol-img">
+                        <img src="{% static 'images/json.png' %}" alt="" style="height: 15px">
+                        <a href="{% url 'achievements' %}">
+                            <p>achievements.json</p>
+                        </a>
+                    </div>
+                    <div class="fol-img">
+                        <img src="{% static 'images/jsx.png' %}" alt="" style="height: 15px;">
+                        <a href="{% url 'contact' %}">
+                            <p>contact.jsx</p>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="folder-right">
+                <div class="fold-img">
+                    <img src="{% static 'images/html.png' %}" alt="" style="height: 15px;">
+                    <a href="/">
+                        <p>home.html</p>
+                    </a>
+                </div>
+                <div class="fold-img">
+                    <img src="{% static 'images/css.png' %}" alt="" style="height: 15px;">
+                    <a href="{% url 'about' %}">
+                        <p>about.css</p>
+                    </a>
+                </div>
+                <div class="fold-img">
+                    <img src="{% static 'images/js.png' %}" alt="" style="height: 15px;">
+                    <a href="{% url 'education' %}">
+                        <p>education.js</p>
+                    </a>
+                </div>
+                <div class="fold-img">
+                    <img src="{% static 'images/py.png' %}" alt="" style="height: 15px;">
+                    <a href="{% url 'projects' %}">
+                        <p>projects.py</p>
+                    </a>
+                </div>
+                <div class="fold-img">
+                    <img src="{% static 'images/json.png' %}" alt="" style="height: 15px">
+                    <a href="{% url 'achievements' %}">
+                        <p>achievements.json</p>
+                    </a>
+                </div>
+                <div class="fold-img">
+                    <img src="{% static 'images/jsx.png' %}" alt="" style="height: 15px;">
+                    <a href="{% url 'contact' %}">
+                        <p>contact.jsx</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% block body %}
+
+    {% endblock %}
+</body>
+
+</html>

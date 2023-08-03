@@ -1,0 +1,27 @@
+.edu-section{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 50px;
+}
+.block{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 150px;
+}
+.block span{
+    font-size: 20px;
+    padding-left: 20px;
+}
+.block i{
+    color: rgb(150, 21, 201);
+    font-size: 20px;
+}
+.edu{
+    display: flex;
+}

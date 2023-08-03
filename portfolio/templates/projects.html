@@ -1,7 +1,77 @@
 {% extends 'base.html' %}
 
 {% block body %}
-    <div>
-        exeperience
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'css/projects.css' %}">
+    <div class="projects">
+        <h1 class="pro-head">Projects I've Created So Far...</h1>
+
+        <div class="project-section">
+            <div class="project-cards">
+                <img src="{% static "images/unimart.png" %}" alt="">
+                <h1>Unimart</h1>
+                <div class="pro-btns">
+                    <button class="git-btn"><a href="https://github.com/notnotrachit/unimart">GitHub</a></button>
+                    <button><a href="https://unimart.rachitkhurana.repl.co/"></a>Live Demo</button>
+                </div>
+            </div>
+            <div class="project-cards">
+                <img src="{% static "images/sportOn.png" %}" alt="">
+                <h1>SportOn</h1>
+                <div class="pro-btns">
+                    <button class="git-btn"><a href="https://github.com/chatbot-1/sports-on-web">GitHub</a></button>
+                    <button><a href="https://sportsonweb.netlify.app/">Live Demo</a></button>
+                </div>
+            </div>
+            <div class="project-cards">
+                <img src="{% static "images/port.png" %}" alt="">
+                <h1>React portfolio</h1>
+                <div class="pro-btns">
+                    <button class="git-btn"><a href="https://github.com/chatbot-1/Portfolio">GitHub</a></button>
+                    <button><a href="https://atulsingh09.netlify.app/">Live Demo</a></button>
+                </div>
+            </div>
+            <div class="project-cards">
+                <img src="{% static "images/health.png" %}" alt="">
+                <h1>The Health.Aura</h1>
+                <div class="pro-btns">
+                    <button class="git-btn"><a href="https://github.com/chatbot-1/healthaura">GitHub</a></button>
+                    <button><a href="https://healthaura.netlify.app/">Live Demo</a></button>
+                </div>
+            </div>
+            <div class="project-cards">
+                <img src="{% static "images/space.png" %}" alt="">
+                <h1>SpaceX Clone</h1>
+                <div class="pro-btns">
+                    <button class="git-btn"><a href="https://github.com/chatbot-1/spaceX_clone">GitHub</a></button>
+                    <button><a href="http://atulsingh.me/spaceX_clone/">Live Demo</a></button>
+                </div>
+            </div>
+            <div class="project-cards">
+                <img src="{% static "images/tesla.jpg" %}" alt="">
+                <h1>Tesla Clone</h1>
+                <div class="pro-btns">
+                    <button class="git-btn"><a href="https://github.com/chatbot-1/tesla_webpage/tree/main">GitHub</a></button>
+                    <button><a href="http://atulsingh.me/tesla_webpage/">Live Demo</a></button>
+                </div>
+            </div>
+            <div class="project-cards">
+                <img src="{% static "images/black.png" %}" alt="">
+                <h1>Blackjack</h1>
+                <div class="pro-btns">
+                    <button class="git-btn"><a href="https://github.com/chatbot-1/blackjack">GitHub</a></button>
+                    <button><a href="http://atulsingh.me/blackjack/">Live Demo</a></button>
+                </div>
+            </div>
+            <div class="project-cards">
+                <img src="{% static "images/tutor.jpg" %}" alt="">
+                <h1>Tutor Valley</h1>
+                <div class="pro-btns">
+                    <button class="git-btn"><a href="https://github.com/chatbot-1/tutorValley">GitHub</a></button>
+                    <button><a href="http://atulsingh.me/tutorValley/">Live Demo</a></button>
+                </div>
+            </div>
+        </div>
     </div>
 {% endblock %}
